@@ -5,9 +5,7 @@ def check_empty_file(current_file):
      current_file = input("You haven't set current file yet! , please enter it's name : ")
     return current_file
 current_file = None
-
-1
-while True :
+while True:
     menu = f'''
 ===================================================================================
                   Current file : {current_file}
